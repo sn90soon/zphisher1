@@ -2,7 +2,7 @@
 
 ##   Zphisher 	: 	Automated Phishing Tool
 ##   Author 	: 	TAHMID RAYAT 
-##   Version 	: 	2.1
+##   Version 	: 	1.0
 ##   Github 	: 	https://github.com/htr-tech
 
 ##   THANKS TO :
@@ -151,9 +151,9 @@ banner() {
 		${RED}| |_| |  / _` |  / __| | |/ / \___ \  | | | | / __| | __|  / _ \ | '_ ` _ \
 		${RED}|  _  | | (_| | | (__  |   <   ___) | | |_| | \__ \ | |_  |  __/ | | | | | |
 		${RED}|_| |_|  \__,_|  \___| |_|\_\ |____/   \__, | |___/  \__|  \___| |_| |_| |_|
-		${RED}                                       |___/                                
+		${RED}                                       |___/                                ${RED}Version : 1.0
 		
-                ${RED}Version : 1.0
+                
 
 		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by @sn9.0 (Sn9x0)${WHITE}
 	EOF
