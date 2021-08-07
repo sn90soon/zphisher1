@@ -145,27 +145,27 @@ kill_pid() {
 ## Banner
 banner() {
 	cat <<- EOF
-		${ORANGE}
-		${ORANGE} ______      _     _     _               
-		${ORANGE}|___  /     | |   (_)   | |              
-		${ORANGE}   / / _ __ | |__  _ ___| |__   ___ _ __ 
-		${ORANGE}  / / | '_ \| '_ \| / __| '_ \ / _ \ '__|
-		${ORANGE} / /__| |_) | | | | \__ \ | | |  __/ |   
-		${ORANGE}/_____| .__/|_| |_|_|___/_| |_|\___|_|   
-		${ORANGE}      | |                                
-		${ORANGE}      |_|                ${RED}Version : 2.1
+		${RED}
+		${RED} _   _                  _      ____                  _
+		${RED}| | | |   __ _    ___  | | __ / ___|   _   _   ___  | |_    ___   _ __ ___
+		${RED}| |_| |  / _` |  / __| | |/ / \___ \  | | | | / __| | __|  / _ \ | '_ ` _ \
+		${RED}|  _  | | (_| | | (__  |   <   ___) | | |_| | \__ \ | |_  |  __/ | | | | | |
+		${RED}|_| |_|  \__,_|  \___| |_|\_\ |____/   \__, | |___/  \__|  \___| |_| |_| |_|
+		${RED}                                       |___/                                
+		
+                ${RED}Version : 1.0
 
-		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by htr-tech (tahmid.rayat)${WHITE}
+		${GREEN}[${WHITE}-${GREEN}]${CYAN} Tool Created by @sn9.0 (Sn9x0)${WHITE}
 	EOF
 }
 
 ## Small Banner
 banner_small() {
 	cat <<- EOF
-		${BLUE}
-		${BLUE}  ░▀▀█░█▀█░█░█░▀█▀░█▀▀░█░█░█▀▀░█▀▄
-		${BLUE}  ░▄▀░░█▀▀░█▀█░░█░░▀▀█░█▀█░█▀▀░█▀▄
-		${BLUE}  ░▀▀▀░▀░░░▀░▀░▀▀▀░▀▀▀░▀░▀░▀▀▀░▀░▀${WHITE} 2.1
+		${BLUE}                    __
+		${BLUE}|_|   _.   _  |   (_        _  _|_   _   ._ _  
+		${BLUE}| |  (_|  (_  |<  __)  \/  _>   |_  (/_  | | |
+		${BLUE}                       /                      ${WHITE} 2.1
 	EOF
 }
 
